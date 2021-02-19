@@ -24,7 +24,7 @@ permalink: /about/
 ## SIP Statuses
 
 - **Proposed** - a SIP that is ready to be reviewed in a governance call.
-- **Approved** - a SIP that has been accepted for implementation by the Yearn community.
+- **Approved** - a SIP that has been accepted for implementation by the SharedStake community.
 - **Implemented** - a SIP that has been released to mainnet.
 - **Rejected** - a SIP that has been rejected.
 - **Withdrawn** - a SIP that has been withdrawn by the author(s).

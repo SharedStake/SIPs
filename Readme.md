@@ -1,4 +1,4 @@
-<!-- copyright 2020 yearn.finance && the contributors -->
+<!-- copyright 2020 SharedStake.finance && the contributors -->
 <p align="center">
  <img src="favicon.png" align="right" width="200">
 	<h1 align="left">SIPs</h1>
@@ -26,7 +26,7 @@
 ## SIP Statuses
 
 - **Proposed** - a SIP that is ready to be reviewed in a governance call.
-- **Approved** - a SIP that has been accepted for implementation by the Yearn community.
+- **Approved** - a SIP that has been accepted for implementation by the SharedStake community.
 - **Implemented** - a SIP that has been released to mainnet.
 - **Rejected** - a SIP that has been rejected.
 - **Withdrawn** - a SIP that has been withdrawn by the author(s).

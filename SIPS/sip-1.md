@@ -9,11 +9,11 @@ updated: 2021-02-18
 
 ## What is an SIP?
 
-SIP stands for Yearn Improvement Proposal, it has been adapted from the YIP (Yearn Improvement Proposal) which was also derived heavily from the SIP Synthetix Improvement Proposal document in many places. The purpose of this process is to ensure changes to Yearn are transparent and well governed. An SIP is a design document providing information to the Yearn community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
+SIP stands for SharedStake Improvement Proposal, it has been adapted from the YIP (SharedStake Improvement Proposal) which was also derived heavily from the SIP Synthetix Improvement Proposal document in many places. The purpose of this process is to ensure changes to SharedStake are transparent and well governed. An SIP is a design document providing information to the SharedStake community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ## SIP Rationale
 
-We intend SIPs to be the primary mechanisms for proposing new features, collecting community input on an issue, and for documenting the design decisions for changes to Yearn. Because they are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
+We intend SIPs to be the primary mechanisms for proposing new features, collecting community input on an issue, and for documenting the design decisions for changes to SharedStake. Because they are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
 It is highly recommended that a single SIP contain a single key proposal or new idea. The more focused the SIP, the more successful it is likely to be.
 
@@ -21,9 +21,9 @@ An SIP must meet certain minimum criteria. It must be a clear and complete descr
 
 ## SIP Work Flow
 
-Parties involved in the process are the _author_, the [_SIP editors_](#SIP-editors), and the Yearn community.
+Parties involved in the process are the _author_, the [_SIP editors_](#SIP-editors), and the SharedStake community.
 
-:warning: Before you begin, vet your idea, this will save you time. Ask the Yearn community first if an idea is original to avoid wasting time on something that will be rejected based on prior research (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will have the intend effect. The appropriate public forum to gauge interest around your SIP is [the unofficial Yearn Discord] or [the unofficial Yearn Telegram].
+:warning: Before you begin, vet your idea, this will save you time. Ask the SharedStake community first if an idea is original to avoid wasting time on something that will be rejected based on prior research (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will have the intend effect. The appropriate public forum to gauge interest around your SIP is [the unofficial SharedStake Discord] or [the unofficial SharedStake Telegram].
 
 Your role as the champion is to write the SIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea. Following is the process that a successful SIP will move along:
 
@@ -54,7 +54,7 @@ Each SIP should have the following parts:
 - Preamble - RFC 822 style headers containing metadata about the SIP, including the SIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details.
 - Simple Summary - “If you can’t explain it simply, you don’t understand it well enough.” Provide a simplified and layman-accessible explanation of the SIP.
 - Abstract - a short (~200 word) description of the technical issue being addressed.
-- Motivation (\*optional) - The motivation is critical for SIPs that want to change Yearn. It should clearly explain why the existing specification is inadequate to address the problem that the SIP solves. SIP submissions without sufficient motivation may be rejected outright.
+- Motivation (\*optional) - The motivation is critical for SIPs that want to change SharedStake. It should clearly explain why the existing specification is inadequate to address the problem that the SIP solves. SIP submissions without sufficient motivation may be rejected outright.
 - Specification - The technical specification should describe the syntax and semantics of any new feature.
 - Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
 - Test Cases - Test cases may be added during the implementation phase but are required before implementation.
@@ -75,7 +75,7 @@ Each SIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style
 
 `author:` <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s). Details are below.>
 
-`* discussions-to:` \<a url pointing to the official discussion thread at gov.yearn.finance\>
+`* discussions-to:` \<a url pointing to the official discussion thread at gov.SharedStake.finance\>
 
 `status:` < PROPOSED | APPROVED | IMPLEMENTED >
 
@@ -153,7 +153,7 @@ The editors don't pass judgment on SIPs. We merely do the administrative & edito
 
 ## History
 
-The SIP document has been adapted from the YIP (Yearn Improvement Proposal) which was also derived heavily from the SIP Synthetix Improvement Proposal document in many places text was simply copied and modified. Any comments about the SIP document should be directed to the YIP editors.
+The SIP document has been adapted from the YIP (SharedStake Improvement Proposal) which was also derived heavily from the SIP Synthetix Improvement Proposal document in many places text was simply copied and modified. Any comments about the SIP document should be directed to the YIP editors.
 
 ### Bibliography
 
