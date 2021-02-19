@@ -35,7 +35,7 @@ permalink: /about/
 
 1.  Review [SIP-1](SIPS/sip-1.html).
 2.  Fork the repository by clicking "Fork" in the top right.
-3.  Add your SIP to your fork of the repository. There is a [template SIP here](sip-X.md).
+3.  Add your SIP to your fork of the repository. There is a [template SIP here](https://github.com/SharedStake/SIPs/blob/main/sip-X.md).
 4.  Submit a Pull Request
 
 Before you begin writing a formal SIP, you should vet your idea. Ask the SharedStake community first if an idea is original to avoid wasting time on something that will be be rejected based on prior research.When you believe your SIP is mature and ready to progress, you should ask to have your issue added to the next governance call where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the SIP editors will update the state of your SIP to 'Approved'.
