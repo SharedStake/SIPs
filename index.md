@@ -18,7 +18,7 @@ title: Home
 - Core - Proposals that affect the core functionality of SharedStake.
 - Contracts - Improvements on SharedStake Contracts including gas efficiency, security, reliability etc. Functional changes and core implementations should take place in Core Proposals.
 - Interface - Proposals that improves the User Experience and User Interface. These proposals may include Core proposals with smaller effects. Visual changes on the [main website](https://www.sharedstake.org/) should take please as an issue in the [UI repository↗](https://github.com/SharedStake/SharedStake-ui)
-- Meta - Improvements on SIPs, see [SIP-1](SIPS/Sip-1.md)
+- Meta - Improvements on SIPs, see [SIP-1](SIPS/sip-1.html)
  
 
 ## SIP Statuses
@@ -30,10 +30,10 @@ title: Home
 - **Withdrawn** - a SIP that has been withdrawn by the author(s).
 - **Deferred** - a SIP that is pending another SIP/some other change that should be bundled with it together.
 - **Moribund** - a SIP that was implemented but is now obsolete and requires no explicit replacement.
-
+ 
 ## Contributing
 
-1.  Review [SIP-1](SIPS/Sip-1.md).
+1.  Review [SIP-1](SIPS/sip-1.html).
 2.  Fork the repository by clicking "Fork" in the top right.
 3.  Add your SIP to your fork of the repository. There is a [template SIP here](sip-X.md).
 4.  Submit a Pull Request

@@ -70,4 +70,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - yip-X.md
+  - sip-X.md
