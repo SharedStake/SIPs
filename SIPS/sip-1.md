@@ -9,7 +9,7 @@ updated: 2021-02-18
 
 ## What is an SIP?
 
-SIP stands for Yearn Improvement Proposal, it has been adapted from the YIP (Yearn Improvement Proposal). The purpose of this process is to ensure changes to Yearn are transparent and well governed. An SIP is a design document providing information to the Yearn community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
+SIP stands for Yearn Improvement Proposal, it has been adapted from the YIP (Yearn Improvement Proposal) which was also derived heavily from the SIP Synthetix Improvement Proposal document in many places. The purpose of this process is to ensure changes to Yearn are transparent and well governed. An SIP is a design document providing information to the Yearn community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ## SIP Rationale
 
@@ -153,7 +153,7 @@ The editors don't pass judgment on SIPs. We merely do the administrative & edito
 
 ## History
 
-The SIP document was derived heavily from the SIP Synthetix Improvement Proposal document in many places text was simply copied and modified. Any comments about the SIP document should be directed to the SIP editors.
+The SIP document has been adapted from the YIP (Yearn Improvement Proposal) which was also derived heavily from the SIP Synthetix Improvement Proposal document in many places text was simply copied and modified. Any comments about the SIP document should be directed to the YIP editors.
 
 ### Bibliography
 
