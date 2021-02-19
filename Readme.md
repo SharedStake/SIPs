@@ -19,7 +19,7 @@
 - Governance Operations - Proposals for improving the DAO operations, Governance, Partnerships and other social events.
 - Core - Proposals that affect the core functionality of SharedStake.
 - Contracts - Improvements on SharedStake Contracts including gas efficiency, security, reliability etc. Functional changes and core implementations should take place in Core Proposals.
-- Interface - Proposals that improves the User Experience and User Interface. These proposals may include Core proposals with smaller effects. Visual changes on the [main website](https://www.sharedstake.org/) should take please as an issue in the [UI repository↗](https://github.com/SharedStake/SharedStake-ui)
+- Interface - Proposals that improve the User Experience and User Interface. These proposals may include Core proposals with smaller effects. Visual changes on the [main website](https://www.sharedstake.org/) should take place as an issue in the [UI repository↗](https://github.com/SharedStake/SharedStake-ui)
 - Meta - Improvements on SIPs, see [SIP-1](SIPS/sip-1.md)
  
 
