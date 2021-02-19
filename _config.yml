@@ -21,7 +21,7 @@
 title: SharedStake Improvement Proposals
 email: admin@sharedstake.org
 description: >- # this means to ignore newlines until "baseurl:"
-  SharedStake Improvement Proposals (SIPs) describe standards for the Ethereum
+  SharedStake Improvement Proposals (SIPs) describe standards for the SharedStake
   platform, including core protocol specifications, client APIs, and contract
   standards.
 baseurl: "" # the subpath of your site, e.g. /blog
