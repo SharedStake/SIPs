@@ -13,7 +13,7 @@
   * [SIP Statuses](#sip-statuses)
   * [Contributing](#contributing)
  
-**SharedStake Improvement Proposals (SIPs)** describe standards for the SharedStake Decentralized Anonymous Organization.
+**SharedStake Improvement Proposals (SIPs)** describe standards for the SharedStake Decentralized Autonomous Organization.
 
 ## SIP Types
 - Governance Operations - Proposals for improving the DAO operations, Governance, Partnerships and other social events.
@@ -29,9 +29,9 @@
 - **Approved** - a SIP that has been accepted for implementation by the SharedStake community.
 - **Implemented** - a SIP that has been released to mainnet.
 - **Rejected** - a SIP that has been rejected.
-- **Withdrawn** - a SIP that has been withdrawn by the author(s).
-- **Deferred** - a SIP that is pending another SIP/some other change that should be bundled with it together.
-- **Moribund** - a SIP that was implemented but is now obsolete and requires no explicit replacement.
+- **Withdrawn** - a SIP that has been withdrawn by the Author(s).
+- **Deferred** - a SIP that is pending another SIP/additional change that should be bundled with it.
+- **Moribund** - a SIP that was implemented. It is now obsolete and requires no explicit replacement.
 
 ## Contributing
 
@@ -40,7 +40,7 @@
 3.  Add your SIP to your fork of the repository. There is a [template SIP here](sip-X.md).
 4.  Submit a Pull Request
 
-Before you begin writing a formal SIP, you should vet your idea. Ask the SharedStake community first if an idea is original to avoid wasting time on something that will be be rejected based on prior research.When you believe your SIP is mature and ready to progress, you should ask to have your issue added to the next governance call where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the SIP editors will update the state of your SIP to 'Approved'.
+Before you begin writing a formal SIP, you should vet your idea with the SharedStake community. Ask if an idea is original to avoid wasting time on something that will be be rejected based on prior research. When you believe your SIP is mature and ready to progress, ask to have your issue added to the next governance call where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the SIP Editors will update the state of your SIP to 'Approved'.
 
 If your SIP requires images, the image files should be included in a subdirectory of the `assets` folder for that SIP as follow: `assets/sip-X` (for sip **X**). When linking to an image in the SIP, use relative links such as `../assets/sip-X/image.png`.
 
