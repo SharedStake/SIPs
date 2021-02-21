@@ -31,7 +31,7 @@
 - **Rejected** - a SIP that has been rejected.
 - **Withdrawn** - a SIP that has been withdrawn by the Author(s).
 - **Deferred** - a SIP that is pending another SIP/additional change that should be bundled with it.
-- **Moribund** - a SIP that was implemented. It is now obsolete and requires no explicit replacement.
+- **Moribund** - a SIP that was implemented and is now obsolete. It requires no explicit replacement.
 
 ## Contributing
 
@@ -42,7 +42,7 @@
 
 Before you begin writing a formal SIP, you should vet your idea with the SharedStake community. Ask if an idea is original to avoid wasting time on something that will be be rejected based on prior research. When you believe your SIP is mature and ready to progress, ask to have your issue added to the next governance call where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the SIP Editors will update the state of your SIP to 'Approved'.
 
-If your SIP requires images, the image files should be included in a subdirectory of the `assets` folder for that SIP as follow: `assets/sip-X` (for sip **X**). When linking to an image in the SIP, use relative links such as `../assets/sip-X/image.png`.
+If your SIP requires images, the image files should be included in a subdirectory of the `assets` folder for that SIP, using the following nameing convention: `assets/sip-X` (for sip **X**). When linking to an image in the SIP, use relative links such as `../assets/sip-X/image.png`.
 
 ## Copyright
 
