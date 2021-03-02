@@ -88,7 +88,7 @@ Proposed Implementation is described in the figure below:
 ### POP: Proof of Participation
 - min-pop = 0 : minimum amount of SGT that is accounted by addresses that will be included in the calculation of threshold value. Anyone lower than min-pop will be excluded as default. Proposed to be changed after 1000 validators.
 - max-pop = 0 : maximum amount of SGT that is accounted by addresses that will be included in the calculation of threshold value. Anyone with amount more than max-pop will be included as default. Proposed to be changed after 1000 validators.
-- threshold = 90% : threshold between min and max values that leaves outsiders out of the calculation of POP value. Lets say min=1 and max=16, 90% of the addresses holding an SGT in this range will be included. Threshold acts as a balancer mechanism for SharedStake. When more people is leaving the protocol threshold is lower, which increases the number of address that recieves eth2 staking profits and lowers the cost of investment; Increasing the profitability of the protocol as a result. Which is expected to increase the number of newcomers & vice-versa.  
+- threshold = 90% : threshold between min and max values that leaves outsiders out of the calculation of POP value. Lets say min=1 and max=16, 90% of the addresses holding an SGT in this range will be included. Threshold acts as a balancer mechanism for SharedStake. When more people is leaving the protocol threshold is lower, which increases the number of address that recieves eth2 staking profits and reduces the cost of investment; Increasing the profitability of the protocol as a result. Which is expected to increase the number of newcomers. vice-versa.  
 
 ### Barbecue.js:
 - genesis = 11426200 : first block to store events.  
@@ -100,6 +100,8 @@ Proposed Implementation is described in the figure below:
 
 ## Concerns
 
+- There might be some concerns about POP mechanism. With the correct parametres and SIPs on changing them when its needed, we can reduce the concerns about the process. Also, currently, it is 0, which means you don't need to own any SGT to prove you are indeed aiming to stake your Ether with SharedStake. This value can change in the future, at which point enough SGT is allocated to vEth2 holders through [community allocations](https://docs.sharedstake.org/sgt/distribution-and-emission). So, there will be problems for the Stakers to "prove".
+- There might be some concerns about the usage of admin-fee. Admin fee is actually receieved when people are withdrawing their staked Ether. So, it doesn't contain any risk. But any SIP can propose to change the admin-fee as well as disabling the withdrawals etc. It will act as an exit fee when the refund is disabled. After a while, withdraw fee refunds can be available again with an another SIP.
 
 ## Copyright
 
