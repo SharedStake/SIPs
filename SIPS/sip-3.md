@@ -22,7 +22,7 @@ At the moment, vEth2 is like any other Eth2 derivative token. This will change t
 <!--This is the problem statement. This is the *why* of the SIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the SIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the SIP will address the issue!-->
 ## Increased Defi Compitability
 - By using vEth2, instead of any other kind of wrapped Ether, defi users gain extra 9-10% Yearly Growth with off-chain profit distribution.
-Since vEth2 doesn't contain any 'imaginary' staking rewards -which is expected to be appreciated by the community in other protocols- it is a stable token pegged to the value of Ether. Pratically eliminates the impermanent loss.
+- Since vEth2 doesn't contain any 'imaginary' staking rewards -which is expected to be appreciated by the community in other protocols- it is a stable token pegged to the value of Ether. Pratically eliminates the impermanent loss.
 
 ## Financial Optimization of User Profits
 - With the proposed concepts like Natural Exit Pool, Proof-of-Participation, off-chain yield bearing, Provable profit sharing... SharedStake optimizes the Eth2 staking profits by creating a secure off-chain yield distribution mechanism.
@@ -55,7 +55,7 @@ In the changing ecosystem of Ethereum, Proof of Stake will be the new consensus 
 ## Technical Specification
 
 <!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces SharedStake Finance currently exposes or the creations of new ones.-->
-Proposed Implementation described in the figure below:
+Proposed Implementation is described in the figure below:
 ![figure 0](mechanism.jpg)
 
 ### Provable profit sharing: 
