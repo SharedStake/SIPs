@@ -27,15 +27,15 @@ At the moment, vEth2 is like any other Eth2 derivative token. This will change t
 ## Financial Optimization of User Profits
 - With the proposed concepts like Natural Exit Pool, Proof-of-Participation, off-chain yield bearing, Provable profit sharing... SharedStake optimizes the Eth2 staking profits by creating a secure off-chain yield distribution mechanism.
 - On top of the Ethereum-2 Staking profits, vEth2 and its usage on other Decentralized Finance Applications are incentivized further with SGT, which is used as a Token for Proof of Participation in the SharedStake Protocol.
-- Proof of participation will eliminate a small group of people from taking stakers' profits. Currently, it is 0, which means you don't need to own any SGT to prove you are indeed aiming to stake your Ether with SharedStake. This value can change in the future, at which point enough SGT is allocated to vEth2 holders through [community allocations](https://docs.sharedstake.org/sgt/distribution-and-emission). 
+- Proof of participation will eliminate a small group of people from taking stakers' profits. Currently, it is 0, which means you don't need to own any SGT to prove you are indeed aiming to stake your Ether with SharedStake. This value can change in the future, at which point enough SGT will be allocated to vEth2 holders through [community allocations](https://docs.sharedstake.org/sgt/distribution-and-emission). 
 - A portion of Admin fee will be used for buyback of SGT to be put in the treasury, which already contains the [24% of the total supply](https://docs.sharedstake.org/sgt/tokenomics).
 
 ## Increased User Experience
-- Ethereum2 profits will be distributed when Eth2 is launched, but it can be tracked and analyzed with the dashboard. Dashboard allows users to see their Eth2 staking profits with important parameters. Users can also keep track of the overall statistics of the Protocol.
+- Ethereum2 profits will be distributed when Eth2 is launched, but it can be tracked and analyzed with the dashboard. Dashboard allows users to see their Eth2 staking profits in real-time with important parameters. Users can also keep track of the overall statistics of the Protocol.
 
 ## Decreased risks
 - vEth2 doesn't include any imaginary profits.
-- It's value pegged to Ether with a natural exit pool, which means Liquidity Providers and traders don't need to worry about fluctuations on pricing.
+- It's value pegged to Ether with a natural exit pool, which means Liquidity Providers and traders don't need to worry about fluctuations on pricing a lot.
 
 ## Sustainability
 - SharedStake founders planned to decentralize all staking process with the Eth2 deployment. After that, vEth2 will become an on-chain yield bearing wrapped Ether with on-chain calculations.
@@ -74,13 +74,13 @@ Proposed Implementation is described in the figure below:
 - [Example Adaptor model ↗](https://github.com/ConcourseOpen/DeFi-Pulse-Adapters)
 
 ### Dashboard:
-- Dashboard allows users to see their Eth2 staking profits with important parameters taken from Barbecue.js . Users can also keep track of the overall statistics of the Protocol.
+- Dashboard allows users to see their Eth2 staking profits with important parameters taken from Barbecue.js. Users can also keep track of the overall statistics of the Protocol.
 - Currently Dashboard is under construction and planned to be active on April-May 2021.
 
 ### Proof of Participation:
-- Off-chain profit sharing comes with a problem when you support various defi protocols: you don't know who invested the vEth2 stored in the contracts, pools, geysers... We use SGT to decide who is coming from SharedStake and who to distribute the Eth2 staking profits. 
+- Off-chain profit sharing comes with a problem when you support various defi protocols: you don't know who invested the vEth2 stored in the contracts, pools, geysers... We use SGT to decide who is coming from SharedStake and who to distribute the Eth2 staking profits allocated to the contract.
 - While vEth2 amount is a part of the calculations, SGT amount doesn't affect the received profits.
-- Since using an unstable token as a POP can result in unstability of overall protocol structure, and this issue is not active while the marketcap of vEth2 is too small to use in decentralized finance; **It is proposed to activate the POP mechanism after surpassing the 1000 validator in total.**
+- Since using an unstable token as a POP can result in unstability of overall protocol structure, and this issue is not active while the marketcap of vEth2 is too small to be used in decentralized finance; **It is proposed to activate the POP mechanism after surpassing the 1000 validator in total.**
 - Pop structure contains a min-pop, max-pop and threshold for everyblock.
 
 ## Configurable Values
@@ -103,7 +103,7 @@ Proposed Implementation is described in the figure below:
 
 - There might be some concerns about POP mechanism. With the correct parametres and SIPs on changing them when its needed, we can reduce the concerns about the process. Also, currently, it is 0, which means you don't need to own any SGT to prove you are indeed aiming to stake your Ether with SharedStake. This value can change in the future, at which point enough SGT is allocated to vEth2 holders through [community allocations](https://docs.sharedstake.org/sgt/distribution-and-emission).
 
-- There might be some concerns about the usage of admin-fee. Admin fee is actually receieved when people are withdrawing their staked Ether. So, it doesn't contain any risk. But any SIP can propose to change the admin-fee as well as disabling the withdrawals etc. It will act as an exit fee when the refund is disabled. After a while, withdraw fee refunds can be available again with an another SIP.
+- There might be some concerns about the usage of admin-fee. Admin fee is actually receieved when people are withdrawing their staked Ether. So, it doesn't contain any risk. But any SIP can propose to change the admin-fee as well as disabling the refunds on withdrawals etc. It will act as an exit fee when the refund is disabled. After a while, withdrawal fee refunds can be available again with an another SIP.
 
 ## Copyright
 
