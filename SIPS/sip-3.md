@@ -65,12 +65,12 @@ Proposed Implementation is described in the figure below:
 ### Barbecue.js:
 - Stores and analyzes the [events emitted from vEth2 Contract](https://etherscan.io/address/0x898bad2774eb97cf6b94605677f43b41871410b1#events). 
 - Takes an address as an input and calculates it's contribution to the Eth2 staking on SharedStake Protocol every single block. Then stores it and acts as an api endpoint. 
-- Current proposal of barbecue.js will eliminates the profits coming from vEth2 stored in various contracts; So, we fix  this issue and add support to the personal or protocol contracts with sauce.js.
-- Uses SGT as a Proof of Participation to eliminate outsiders and distributes the profits of vEth2 invested in Supported Contract and Protocols to the users of SharedStake. 
+- A proposed calculation with just "held amount of vEth2", will not support the profits coming from vEth2 stored in various contracts; So, we fix  this issue and add a support to the personal or protocol contracts with sauce.js.
+- Uses SGT as a Proof of Participation to eliminate outsiders and distributes the profits of vEth2 invested in supported Contract and Protocols, to the **users of SharedStake**. 
 
 ### Sauce.js:
 - Includes various adaptors for different type of contracts.
-- It is open to contribution, which means any Decentralized Protocol or Community Member can include their Adaptor and Addresses to be included in the profit sharing mechanism.
+- It is open to contribution, which means any Decentralized Protocol or a community member can include their "Adaptor" and "Address" to be included in the profit sharing mechanism.
 - [Example Adaptor model ↗](https://github.com/ConcourseOpen/DeFi-Pulse-Adapters)
 
 ### Dashboard:
@@ -80,7 +80,7 @@ Proposed Implementation is described in the figure below:
 ### Proof of Participation:
 - Off-chain profit sharing comes with a problem when you support various defi protocols: you don't know who invested the vEth2 stored in the contracts, pools, geysers... We use SGT to decide who is coming from SharedStake and who to distribute the Eth2 staking profits. 
 - While vEth2 amount is a part of the calculations, SGT amount doesn't affect the received profits.
-- Since using an unstable token as a POP can result in unstability of overall protocol structure & issue is not active while the marketcap of vEth2 is too small to use in decentralized finance, **It is proposed to activate it after surpassing the 1000 validator in total.**
+- Since using an unstable token as a POP can result in unstability of overall protocol structure, and this issue is not active while the marketcap of vEth2 is too small to use in decentralized finance; **It is proposed to activate the POP mechanism after surpassing the 1000 validator in total.**
 - Pop structure contains a min-pop, max-pop and threshold for everyblock.
 
 ## Configurable Values
@@ -88,7 +88,7 @@ Proposed Implementation is described in the figure below:
 ### POP: Proof of Participation
 - min-pop = 0 : minimum amount of SGT that is accounted by addresses that will be included in the calculation of threshold value. Anyone lower than min-pop will be excluded as default. Proposed to be changed after 1000 validators.
 - max-pop = 0 : maximum amount of SGT that is accounted by addresses that will be included in the calculation of threshold value. Anyone with amount more than max-pop will be included as default. Proposed to be changed after 1000 validators.
-- threshold = 90% : threshold between min and max values that leaves outsiders out of the calculation of POP value. Lets say min=1 and max=16, 90% of the addresses holding an SGT in this range will be included. Threshold acts as a balancer mechanism for SharedStake. When more people is leaving the protocol threshold is lower, which increases the number of address that recieves eth2 staking profits and reduces the cost of investment; Increasing the profitability of the protocol as a result. Which is expected to increase the number of newcomers. vice-versa.  
+- threshold = 90% : threshold between min and max values that leaves outsiders out of the calculation of POP value. Lets say min=1 and max=16, 90% of the addresses holding an SGT in this range will be included to reward distribution. Threshold acts as a balancer mechanism for SharedStake: When more people is leaving the protocol threshold is lower, which increases the number of address that receives Eth2 staking profits and reduces the cost of investment; Increasing the profitability of the protocol as a result. Which is expected to increase the number of newcomers, creating a negatif feed-back. vice-versa.  
 
 ### Barbecue.js:
 - genesis = 11426200 : first block to store events.  
@@ -97,10 +97,12 @@ Proposed Implementation is described in the figure below:
 ### Sauce.js:
 - adaptors: defines the profit distribution mechanisms for a protocol as an algorithm. Any contract can be supported with a correct adaptor. 
 - genesis : changes for every adaptor.
+- addresses : every address is categorized under an adaptor. Every address has a genesis which should be more than it's adaptor's.
 
 ## Concerns
 
-- There might be some concerns about POP mechanism. With the correct parametres and SIPs on changing them when its needed, we can reduce the concerns about the process. Also, currently, it is 0, which means you don't need to own any SGT to prove you are indeed aiming to stake your Ether with SharedStake. This value can change in the future, at which point enough SGT is allocated to vEth2 holders through [community allocations](https://docs.sharedstake.org/sgt/distribution-and-emission). So, there will be problems for the Stakers to "prove".
+- There might be some concerns about POP mechanism. With the correct parametres and SIPs on changing them when its needed, we can reduce the concerns about the process. Also, currently, it is 0, which means you don't need to own any SGT to prove you are indeed aiming to stake your Ether with SharedStake. This value can change in the future, at which point enough SGT is allocated to vEth2 holders through [community allocations](https://docs.sharedstake.org/sgt/distribution-and-emission).
+
 - There might be some concerns about the usage of admin-fee. Admin fee is actually receieved when people are withdrawing their staked Ether. So, it doesn't contain any risk. But any SIP can propose to change the admin-fee as well as disabling the withdrawals etc. It will act as an exit fee when the refund is disabled. After a while, withdraw fee refunds can be available again with an another SIP.
 
 ## Copyright
