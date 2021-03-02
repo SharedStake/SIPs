@@ -2,7 +2,7 @@
 sip: 3
 title: Eth2 Profit Sharing with vEth2
 status: Proposed
-author: Ice Bear (@sharedStake-main
+author: Ice Bear (@sharedStake-main)
 created: 2021-03-03
 updated: 2021-03-03
 ---
